@@ -63,7 +63,7 @@ export default function Home() {
                 </div>
               </button>
               
-              <button className="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 backdrop-blur-sm flex items-center gap-2">
+              <button onClick={() => navigate('/plane')} className="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 backdrop-blur-sm flex items-center gap-2">
                 <Calendar size={20} />
                 Plan Trip
               </button>
